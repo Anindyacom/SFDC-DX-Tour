@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Position</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Positions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approve</masterLabel>
+            <translation><!-- Approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation><!-- Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reject</masterLabel>
+            <translation><!-- Reject --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Close date --></label>
+        <name>Close_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Opened --></label>
+        <name>Days_Opened__c</name>
+    </fields>
+    <fields>
+        <label><!-- Function_Area --></label>
+        <name>Function_Area__c</name>
+        <picklistValues>
+            <masterLabel>Administration</masterLabel>
+            <translation><!-- Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resource</masterLabel>
+            <translation><!-- Human Resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Technology</masterLabel>
+            <translation><!-- Information Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hiring Manager --></label>
+        <name>Hiring_Manager__c</name>
+        <relationshipLabel><!-- Positions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Java --></label>
+        <name>Java__c</name>
+    </fields>
+    <fields>
+        <label><!-- Javascript --></label>
+        <name>Javascript__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job description --></label>
+        <name>Job_description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+        <picklistValues>
+            <masterLabel>Austin,TX</masterLabel>
+            <translation><!-- Austin,TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>London,England</masterLabel>
+            <translation><!-- London,England --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York,NY</masterLabel>
+            <translation><!-- New York,NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sydney,Australia</masterLabel>
+            <translation><!-- Sydney,Australia --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Max Pay --></label>
+        <name>Max_Pay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min Pay --></label>
+        <name>Min_Pay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Date --></label>
+        <name>Open_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position Status --></label>
+        <name>Position_Status__c</name>
+        <picklistValues>
+            <masterLabel>approve</masterLabel>
+            <translation><!-- approve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>hold</masterLabel>
+            <translation><!-- hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>offered</masterLabel>
+            <translation><!-- offered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>progress</masterLabel>
+            <translation><!-- progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>receive</masterLabel>
+            <translation><!-- receive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Skill Required --></label>
+        <name>Skill_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed-Cancelled</masterLabel>
+            <translation><!-- Closed-Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed-Not Approved</masterLabel>
+            <translation><!-- Closed-Not Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New position</masterLabel>
+            <translation><!-- New position --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Travel Required --></label>
+        <name>Travel_Required__c</name>
+    </fields>
+    <layouts>
+        <layout>No IT Layout</layout>
+        <sections>
+            <label><!-- Compensation --></label>
+            <section>Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Position Layout</layout>
+        <sections>
+            <label><!-- Compensation --></label>
+            <section>Compensation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Required language --></label>
+            <section>Required language</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- IT Positions --></label>
+        <name>IT_Positions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Non IT Positions --></label>
+        <name>Non_IT_Positions</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Minimum  Pay should not be greater than Max pay --></errorMessage>
+        <name>Min_Pay_Rule</name>
+    </validationRules>
+</CustomObjectTranslation>

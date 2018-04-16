@@ -1,0 +1,22 @@
+<apex:page controller="WinImperativeController" id="WinImperative" sidebar="false" standardStylesheets="false" showHeader="false">
+  <!-- Begin Default Content REMOVE THIS -->
+  
+  <apex:pageBlock >
+  <apex:form >
+  <div>
+      <apex:outputLabel title="Effect Date" value="Effective Date : "/>
+      <apex:inputText value="{!effectiveDate}" disabled="true" />
+      
+      <apex:outputLabel value="Overall trends : "/>
+      <apex:selectList value="{!overAllTrnds}">
+      <apex:selectOption >{!opportunity.Overall_Trends__c}</apex:selectOption>
+      
+      </apex:selectList>
+      
+  </div>
+  
+  </apex:form>
+    </apex:pageBlock>
+  
+  
+</apex:page>

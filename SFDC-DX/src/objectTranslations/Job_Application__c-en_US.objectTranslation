@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Job Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Job Applications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cover letter --></label>
+        <name>Cover_letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+        <relationshipLabel><!-- Job Applications --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

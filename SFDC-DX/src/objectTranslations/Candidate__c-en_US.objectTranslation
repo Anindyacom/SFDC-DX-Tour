@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Candidates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currently Employed --></label>
+        <name>Currently_Employed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Mobile --></label>
+        <name>Phone_Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSN --></label>
+        <name>SSN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Years of Experience --></label>
+        <name>Years_of_Experience__c</name>
+    </fields>
+    <layouts>
+        <layout>Candidate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <workflowTasks>
+        <name>Communicate_with_candidate</name>
+        <subject><!-- Communicate with candidate --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>
